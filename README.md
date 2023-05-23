@@ -1,4 +1,4 @@
-## Discrete Key Value Codes - PyTorch Module
+## Discrete Key Value Bottleneck - PyTorch Module
 
 > [**Discrete Key-Value Bottleneck**](https://arxiv.org/abs/2207.11240)
 > *Frederik Träuble, Anirudh Goyal, Nasim Rahaman, Michael Mozer, Kenji Kawaguchi, Yoshua Bengio, Bernhard Schölkopf*. ICML 2023.

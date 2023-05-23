@@ -13,6 +13,7 @@ setup(
                       'einops',
                       'numpy',
                       'tqdm',
+                      'clip @ git+https://github.com/openai/CLIP.git#egg=clip',
                       ],
     classifiers=[
         'Development Status :: 1 - Planning',

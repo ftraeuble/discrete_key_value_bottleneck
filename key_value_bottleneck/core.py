@@ -17,7 +17,7 @@ from key_value_bottleneck.utils import (
     kmeans,
 )
 from key_value_bottleneck.splitters import Chunker, RandomDownProjection, \
-    LearnedDownProjection, SparseRandomDownProjection
+    LearnedDownProjection
 
 
 class CLIPModelWrapper(nn.Module):
@@ -314,12 +314,12 @@ class BottleneckedEncoder(nn.Module):
             dim_values: int,
             init_mode: str = "random",
             kmeans_iters: int = 10,
-            splitting_mode: str = "chunk",
+            splitting_mode: str = "random_projection",
             decay: float = 0.95,
             eps: float = 1e-5,
             threshold_ema_dead_code: float = 0.0,
             encoder_is_channel_last: bool = True,
-            concat_values_from_all_codebooks: bool = True,
+            concat_values_from_all_codebooks: bool = False,
             sample_codebook_temperature: float = 0.0,
             return_values_only: bool = True,
             topk: int = 1,

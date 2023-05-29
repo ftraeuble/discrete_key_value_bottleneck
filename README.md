@@ -3,6 +3,8 @@
 > [**Discrete Key-Value Bottleneck**](https://arxiv.org/abs/2207.11240)
 > *Frederik Träuble, Anirudh Goyal, Nasim Rahaman, Michael Mozer, Kenji Kawaguchi, Yoshua Bengio, Bernhard Schölkopf*. ICML 2023.
 
+See the `experiments_discrete_key_value_bottleneck` 
+[repository](https://github.com/ftraeuble/experiments_discrete_key_value_bottleneck) to run experiments from the paper.
 
 ### Install as pip module
 ```bash
